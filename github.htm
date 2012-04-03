@@ -1,0 +1,100 @@
+  <html>
+  <head>
+  <title>Document</title>
+  <link href="CSS/styleSheet.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript"> 	
+
+	
+  </script>
+  </head>
+  <body>
+	  
+ <div id="mainBackground">
+		  <div style="height:10%;"></div>
+		  <div id="" class="content_header header ">
+			  <div class="headerFont">
+				  <img src="Images/logo.jpg" >
+				DishaJain.github.com
+			  </div>
+			
+		  </div>
+		<div id="" class="content_body">
+			<div class="navigation">
+				<div style="padding:10px">
+					<a href="index.htm" class="showInline tabs">HOME</a>  
+					<a href="#" class="showInline tabs">BLOGS</a>  
+					<a href="#" class="showInline tabs">ABOUT ME</a>  
+					<a href="#" class="showInline tabs">CONTACT</a>  			
+				</div>
+			</div>
+			<div>
+				<div class="floatLeft text" style="margin: 10px;">
+					<h2>Branching and Merging using GitHub</h2>
+						<div dir="ltr" style="text-align: left;" trbidi="on">
+Hello Everyone,<br />
+<br />
+This is my first experience with Github and I think I should share my knowledge on creating and merging of new branch.<br />
+<br />
+<u><b>Creating branches :</b></u><br />
+1)To create a new branch:<br />
+<span style="color: red;">Command:</span> git branch branchName<br />
+<br />
+2)To switch head pointer to new branch:<br />
+<span style="color: red;">Command:</span> git checkout branchName<br />
+<br />
+Above two steps can be combined using a single command:<br />
+<span style="color: red;">Command:</span> git checkout -b branchName<br />
+<br />
+<u><b>For merging files in master :</b></u><br />
+1)Head pointing to master:<br />
+<span style="color: red;">Command:</span> git checkout master<br />
+<br />
+2)Now merge the files from branchName to master:<br />
+<span style="color: red;">Command:</span> git merge branchname<br />
+<br />
+<u><b>To delete the branch:</b></u><br />
+<span style="color: red;">Command:</span> git branch -d branchname<br />
+<br />
+<u><b>To check all the branches available and currently working branch:</b></u><br />
+<span style="color: red;">Command:</span> git branch<br />
+<br />
+Note: * prefix to a branch name will indicate currently working branch.<br />
+<br />
+<u><b>Difference between git push and git push origin branchName</b></u><br />
+<span style="color: red;">Command:</span> git push<br />
+Above pushes change to master<br />
+<span style="color: red;">Command:</span> git push origin branchName<br />
+Above pushes newly created branch or changes made to that branch.<br />
+<br />
+<u><b>For collaborators to work on new branch: </b></u><br />
+<span style="color: red;">Command:</span> git pull<br />
+<span style="color: red;">Command:</span> git checkout branchname<br />
+<br />
+Hope its useful..</div>
+
+
+				</div>
+				<div class="floatRight">
+					<div class="rightLinks">
+						<div style="height:2px;"></div>
+						<div class="linksHead">
+							View Blogs
+						</div>
+						<div style=" padding-left:10px;">
+							<li><a href="unix.htm" class="text linksHeight">UNIX</a></li>
+							<li><a href="github.htm" class="text linksHeight">Github</a></li>
+							<li><a href="html.htm" class="text linksHeight">HTML</a></li>
+							  			 			
+						</div>
+				</div>
+				</div>
+			</div>
+			
+		</div>
+		<div style="height:10%;"></div>
+		
+	  </div>
+	
+  </body>
+  </html> 

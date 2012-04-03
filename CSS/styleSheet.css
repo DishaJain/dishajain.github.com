@@ -80,7 +80,7 @@ border-radius: 5px;
 }
 .text
 {
-font: normal bold 14px Arial; 
+font: normal bold 14px Tahoma, Arial, Helvetica, Sans-Serif;
 color: #313031; 
 text-decoration:none;
 }
@@ -121,3 +121,23 @@ color: #FFFFFF;
 margin:50px;
 }
 
+.grid
+{
+width:190px;
+height: 130px;
+margin:auto;
+border: 1px solid #313031;
+}
+ .gridTabs
+ {
+ float:left;  
+ font: normal bold 14px Arial; 
+ padding-top: 15px;
+  background-color: #6685A3;
+  border-radius: 5px;
+  text-decoration:none;
+ }
+ 
+ h2{
+ color: #003366;
+ }
