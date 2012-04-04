@@ -126,7 +126,7 @@ background-color: #EBEBEC;
 
 .linksHeight
 {
-height:30lpx;
+height:30px;
 }
 
 .header{
@@ -178,3 +178,7 @@ border: 1px solid #313031;
  {
  line-height:1.6em;
  }
+.readMore
+{
+font: normal normal 14px Tahoma, Arial, Helvetica, Sans-Serif;
+}
