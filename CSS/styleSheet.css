@@ -86,7 +86,7 @@ border-radius: 5px;
  .floatLeft
 {
 	float: left;
-	width:68%;
+	width:70%;
 }
 .floatRight
 {
@@ -167,6 +167,10 @@ border: 1px solid #313031;
  .margin10
  {
  margin-left:10px;
+ }
+ .marginRight10
+ {
+ margin-right:10px;
  }
  
  .margin15
