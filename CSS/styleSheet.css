@@ -182,3 +182,8 @@ border: 1px solid #313031;
 {
 font: normal normal 14px Tahoma, Arial, Helvetica, Sans-Serif;
 }
+.textVisitors
+{
+font: normal bold 10px Arial; 
+color: #313031; 
+}
