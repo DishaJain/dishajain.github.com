@@ -16,6 +16,11 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+ <!--function activeState(obj){
+	 obj.removeClass("tabs");
+	 obj.addClass("tabsActive");
+	 
+	 }-->
 </script>
   </head>
   <body>  
@@ -32,7 +37,7 @@
 		  <div id="" class="content_body">
 			<div class="navigation">
 				<div style="padding:10px">
-					<a href="index.htm" class="showInline tabs">HOME</a>  
+					<a href="index.htm" id="#homeTab" class="showInline tabs" >HOME</a>  
 					<a href="blogs.htm" class="showInline tabs">BLOGS</a>  
 					<a href="aboutMe.htm" class="showInline tabs">ABOUT ME</a>  
 					<a href="contactMe.htm" class="showInline tabs">CONTACT</a>  			
@@ -52,7 +57,7 @@
 						<div>
 							<a href="index.htm" class="showInline gridTabs grid margin15"><center><img src="Images/json1.jpg" ></center></a>  
 							<a href="index.htm" class="showInline gridTabs grid margin15"><center><img src="Images/javascript1.jpg" ></center></a>  
-							<a href="index.htm" class="showInline gridTabs grid margin15"><center><img src="Images/jqueryCurve1.jpg" ></center></a>  
+							<a href="jquery.htm" class="showInline gridTabs grid margin15"><center><img src="Images/jqueryCurve1.jpg" ></center></a>  
 						</div>
 						
 					</div>
@@ -68,6 +73,7 @@
 							<li><a href="unix.htm" class="text linksHeight">UNIX</a></li>
 							<li><a href="github.htm" class="text linksHeight">Github</a></li>
 							<li><a href="html.htm" class="text linksHeight">HTML</a></li>
+							<li><a href="jquery.htm" class="text linksHeight">JQuery Modal Window</a></li>
 						</div>
 						
 					</div>

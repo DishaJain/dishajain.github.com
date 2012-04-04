@@ -79,6 +79,25 @@ border-radius: 5px;
   text-decoration:none;
   margin-right:7px;
  }
+ .tabs:hover
+ {
+ background-color: #475D72;
+ }
+.tabsActive
+{
+float:left; 
+ width: 12%; 
+ height:20px;
+ font: normal bold 14px Arial; 
+ color: #F4F1F4; 
+ padding-top: 5px;
+ text-align: center;
+  background-color: black;
+  border: 1px solid #313031;
+  border-radius: 5px;
+  text-decoration:none;
+  margin-right:7px;
+}
  .floatLeft
 {
 	float: left;
@@ -186,4 +205,8 @@ font: normal normal 14px Tahoma, Arial, Helvetica, Sans-Serif;
 {
 font: normal bold 10px Arial; 
 color: #313031; 
+}
+
+.button{
+
 }
